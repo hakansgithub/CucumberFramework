@@ -1,4 +1,4 @@
-@TEC-106 @regressionTest
+@TEC-106 @RegressionTest
 Feature: Etsy Search Functionality
 @TECTC-1011 @smokeTest
   Scenario Outline:Validate Etsy Search message

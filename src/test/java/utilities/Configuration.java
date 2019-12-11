@@ -21,7 +21,7 @@ public class Configuration {
         String value="";
         if(set.contains(key)){
             value=properties.getProperty(key);
-            System.out.println("My key from properties file is : "+value);
+
             return value;
         }else {
             System.out.println("Sorry, no such key in properties file");

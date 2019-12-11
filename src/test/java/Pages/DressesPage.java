@@ -50,5 +50,35 @@ public WebElement cart;
    @FindBy(xpath = "//span[@id='total_price']")
     public WebElement totalAmaount;
 
+   @FindBy(xpath = "//*[@id='block_top_menu']/ul/li[1]/ul/li[2]/ul/li[3]/a")
+    public  WebElement summerdress;
+   @FindBy(xpath = "//*[@id='center_column']/ul/li[2]/div/div[1]/div/a[1]/img")
+   public  WebElement summerdress1;
+   @FindBy(xpath = "//*[@id='center_column']/ul/li[2]/div/div[2]/div[1]/span")
+   public  WebElement  summerdresspricce;
+
+//   @FindBy(xpath = "//*[@id='center_column']/ul/li[2]/div/div[2]/div[2]/a[1]")
+//   public  WebElement summerdress1addcart;
+    @FindBy(xpath = "//li[@id='grid']")
+    public WebElement grid;
+    @FindBy(xpath = "//li[@id='list']")
+
+    public WebElement list;
+@FindBy(xpath = "//*[@title='My Store']")
+public WebElement title;
+    @FindBy(xpath = "//li[@class='youtube']")
+    public WebElement youtube;
+    @FindBy(xpath = "//li[@class='facebook']")
+    public  WebElement facebook;
+    @FindBy(xpath = "//a[@id='color_20']")
+    public WebElement bluecolor;
+    @FindBy(xpath = "//a[@class='addToWishlist wishlistProd_5']")
+    public WebElement yuzde5;
+    @FindBy(xpath = "//*[@id='center_column']/ul/li[3]/div/div[2]/div[1]/span[1]")
+    public  WebElement originprice1;
+    @FindBy(xpath ="//*[@id='center_column']/ul/li[3]/div/div[2]/div[1]/span[2]")
+    public  WebElement  oldprice30;
+    @FindBy(xpath = "//*[@id='center_column']/ul/li[3]/div/div[2]/div[1]/span[3]")
+    public WebElement pecentage5;
 
 }

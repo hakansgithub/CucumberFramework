@@ -65,23 +65,25 @@ public class CalculateDress {
     @Then("^Verify If their total amaount is calculated correct$")
     public void verify_If_their_total_amaount_is_calculated_correct() throws Throwable {
         dressesPage.cart.click();
-    double sum=0.0;
-        double shipping=2;
-        String expected="154.87000000000003";
+        String totalprice = dressesPage.totalAmaount.getText().replace("$", "");
+        double sum = 0.0;
+        double shipping = 2, totalSum = 0.0;
 
 
-        System.out.println("DRESS" + dressesPage.total.size());
         for (WebElement price : dressesPage.total) {
 
             String number = price.getText().replace("$", "");
-            if(number.length()>0){
-                double price1= Double.parseDouble(number);
-               sum=sum+price1;
+            if (number.length() > 0) {
+                double price1 = Double.parseDouble(number);
+                sum = sum + price1;
             }
         }
-        sum=sum+shipping;
-        String sum1=new Double(sum).toString();
-
-        System.out.println(sum);
-       Assert.assertEquals(expected,sum1);
-}}
+        totalSum = sum + shipping;
+        double total = Double.parseDouble(totalprice);
+        String expected = String.format("%.2f", totalSum);
+        String actual = String.format("%.2f", total);
+        System.out.println("Expected total amaount is :$" + expected);
+        System.out.println("Actual total amount is : $" + actual);
+        Assert.assertEquals(expected, actual);
+    }
+}

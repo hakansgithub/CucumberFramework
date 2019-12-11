@@ -1,4 +1,4 @@
-@TEC-102 @ui @smokeTest @regressionTest
+@TEC-102 @ui @smokeTest @RegressionTest
 Feature: Adding Order
 
   Scenario: Verify create order functionality

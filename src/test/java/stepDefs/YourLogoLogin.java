@@ -54,6 +54,6 @@ public class YourLogoLogin {
     public void verifyGetsErrorAlertMessage(String alertmessage) throws Throwable {
           String actual= yourLogoPage.alertmessage.getText();
           Assert.assertTrue(actual.contains(alertmessage));
-         // Assert.assertEquals(alertmessage,actual);
+
     }
 }
