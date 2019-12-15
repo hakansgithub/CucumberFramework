@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be942bb0-de72-46f3-a16f-d8d1ab55b95c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/ColorChange.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/DiscountedItems.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/FollowUsOption.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/OrangeHomePage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/OrderHistory.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/ValidateViewFunction.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resource/dbFeatures/TestingMyApplication.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/MyApplicationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/OrangeHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/OrangeLeaveSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/OrangeMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/ExcelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/JDBCTes2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ChooseColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/DiscountItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/DressOrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/FollowusOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/MyApplicationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/OrangeLeave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/OrangePageJObTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/OrangePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ViewFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JDBCUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resource/UIFeatures/AddingOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/AddingOrder.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resource/UIFeatures/EtsySearchFunctionality.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resource/UIFeatures/EtsySearchFunctionality.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resource/conf/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resource/conf/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DressesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DressesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/UITestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/UITestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/CalculateDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/CalculateDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/YourLogoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/YourLogoLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberFrameWork-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberFrameWork-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumberHTML-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberHTML-report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DressesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DressesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/UITestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/UITestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/CalculateDress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/CalculateDress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CucumberFrameWork.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +32,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
