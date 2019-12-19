@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be942bb0-de72-46f3-a16f-d8d1ab55b95c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ExcelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/CucumberFrameWork.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/JDBCTes2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/JDBCTes2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/JDBCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/JDBCTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/AddingOrderSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/AddingOrderSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/CalculateDress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/CalculateDress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/EtsySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/EtsySteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/OrangeLeave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/OrangeLeave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/BrowserUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Configuration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/JDBCUtils.class" afterDir="false" />
-    </list>
+    <list default="true" id="be942bb0-de72-46f3-a16f-d8d1ab55b95c" name="Default Changelist" comment="my api homework" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
