@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be942bb0-de72-46f3-a16f-d8d1ab55b95c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CucumberFrameWork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ExcelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/CucumberFrameWork.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/JDBCTes2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/JDBCTes2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/JDBCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/JDBCTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/AddingOrderSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/AddingOrderSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/CalculateDress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/CalculateDress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/EtsySteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/EtsySteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/OrangeLeave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/OrangeLeave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/JDBCUtils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +42,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1TrFUGRwK9uigc7SRw6eyynoVuy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -47,78 +65,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UITestRunner">
-    <configuration name="JDBCTes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="runner.JDBCTes2" />
+  <component name="RunManager" selected="JUnit.ListResource.ListResources">
+    <configuration name="GetUserList.GetUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runner.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.GetUserList" />
+      <option name="METHOD_NAME" value="GetUserList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="runner.JDBCTest" />
+    <configuration name="GetUser.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runner.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.GetUser" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: UIFeatures" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/Resource/UIFeatures" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="ListResource.ListResources" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameWork" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="All Features in: UIFeatures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.ListResource" />
+      <option name="METHOD_NAME" value="ListResources" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: SignIn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/Resource/UIFeatures/SignIn.feature" />
-      <option name="GLUE" value="stepDefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="ListResource.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameWork" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: SignIn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.ListResource" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleUserNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runner.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.UITestRunner" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SingleUserNotFound" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UITestRunner" />
-        <item itemvalue="Application.JDBCTes2" />
-        <item itemvalue="Application.JDBCTest" />
-        <item itemvalue="Cucumber java.Feature: SignIn" />
-        <item itemvalue="Cucumber java.All Features in: UIFeatures" />
+        <item itemvalue="JUnit.ListResource.ListResources" />
+        <item itemvalue="JUnit.ListResource.getUser" />
+        <item itemvalue="JUnit.SingleUserNotFound" />
+        <item itemvalue="JUnit.GetUserList.GetUserList" />
+        <item itemvalue="JUnit.GetUser.getUser" />
       </list>
     </recent_temporary>
   </component>
